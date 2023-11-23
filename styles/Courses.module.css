@@ -1,0 +1,142 @@
+.navHolder {
+    padding: 0.5rem 7rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container0 {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 7rem;
+    gap: 1rem;
+}
+.hSpan{
+    color: #703EDB;
+}
+.c0Box0 {
+    display: flex;
+    align-items: center;
+    color: #1A0642;
+    font-size: 40px;
+}
+
+.heroImg {
+    height: calc(25rem - 10px);
+    width: calc(25rem - 10px);
+    border-radius: 0 10% 0 10%;
+}
+
+/* .container1 */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem;
+    gap: 3rem;
+}
+
+.c1Box0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #1A0642;
+}
+
+.c1Box1 {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1B1Course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #703EDB;
+    color: #F5F2FD;
+    border-radius: 25% 0 25% 0;
+    font-size: 25px;
+    font-weight: 900;
+    height: calc(5rem - 10px);
+    width: calc(15rem - 10px);
+}
+
+/* .container2 */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 7rem;
+    gap: 2rem;
+}
+
+.c2Box0 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2rem 0;
+    color: #1A0642;
+}
+
+.c2Box0 h1 {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.c2Box0 strong {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.c2Box1 {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2B1Card {
+    border: 2px solid #121421;
+    display: flex;
+    gap: 1rem;
+    width: 45%;
+    padding: 1rem;
+    border-radius: 20px 0 20px 0;
+}
+
+.studentImg {
+    height: calc(10rem - 10px);
+    width: calc(10rem - 10px);
+    border-radius: 20px 0 20px 0;
+}
+
+.c2BoxDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.c2BoxDetails strong {
+    color: #1A0642;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.c2BoxDetails p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #121421;
+}

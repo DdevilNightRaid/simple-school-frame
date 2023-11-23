@@ -1,0 +1,25 @@
+.navHolder {
+    padding: 0.5rem 7rem;
+}
+
+.slugBody {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 7rem;
+}
+.heading{
+    width: 70%;
+    font-weight: 800;
+    color: #121212;
+    line-height: 3rem;
+}
+.divider {
+    display: block;
+    height: 1px;
+    width: 3rem;
+    border: 2px solid black;
+}
+.section1{
+    line-height: 1.8rem;
+}

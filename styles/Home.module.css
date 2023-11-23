@@ -1,0 +1,738 @@
+.navHolder {
+  padding: 0.5rem 7rem;
+}
+
+.landingHero {
+  color: #1A0642;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lhSection0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.lhHeading {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.lhStrong {
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.lhSection1 {
+  display: flex;
+  flex-direction: row;
+  gap: 3.4rem;
+  height: 50vh;
+  padding: 1rem 7rem;
+
+}
+
+.lhS1part0 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.lhS1P0Circle {
+  background: #FF7F56;
+  height: calc(15rem - 30px);
+  width: calc(15rem - 30px);
+  border-radius: 50px 5px 5px 5px;
+  position: relative;
+}
+
+.schoolGirl {
+  height: 17rem;
+  width: calc(10rem - 10px);
+  position: absolute;
+  top: calc(-3rem - 14px);
+  left: calc(2rem - 10px);
+}
+
+.lhS1part1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.callUsNow {
+  background: #703EDB;
+  padding: 1rem;
+  border-radius: 25px;
+  color: #D9D9D9;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lhS1P1filed1 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 45vw;
+}
+
+.lhS1P1filed2 {
+  width: 100%;
+  color: #1A0642;
+  font-weight: 800;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+}
+
+.lhS1P1filed2 h1 {
+  font-size: 50px;
+}
+
+.lhS1P1filed2 h2 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+/* .seven{
+  border: 2px solid red;
+} */
+.arrow1 {
+  height: calc(9rem - 30px);
+  width: calc(18rem - 30px);
+  position: absolute;
+  top: calc(2rem - 8px);
+  left: calc(11rem - 19px);
+  transform: rotate(-7deg);
+
+}
+
+.hundred {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.miniHundred {
+  width: 30%;
+}
+
+.lhS1part2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.lhS1P2Circle {
+  background: #FFD15C;
+  height: calc(14rem - 30px);
+  width: calc(14rem - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+.collageBoy {
+  height: calc(12rem - 10px);
+  width: calc(12rem - 10px);
+  border-radius: 0 0 45% 50%;
+  position: absolute;
+  top: calc(1rem - 4px);
+  left: calc(1rem - 10px);
+}
+
+/* .container1 */
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 7rem;
+  gap: 2rem;
+}
+
+.c1Section0 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.c1S0field0 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.c1S0field0 h1 {
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.c1S0field0 p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.c1S0Btn {
+  height: 3rem;
+  width: 9rem;
+  background: #703EDB;
+  border-radius: 36px;
+  border: none;
+  outline: none;
+}
+
+.c1S0Btn a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #D9D9D9;
+}
+
+.c1S0field1 {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.c1Section1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.c1S1box {
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  height: 15rem;
+  width: 14rem;
+  border-radius: 10px;
+}
+
+.c1S1boxHolder {
+  background: #4F95DF;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 2rem;
+}
+
+.tutor {
+  color: #D9D9D9;
+}
+
+.c1S1boxHolder1 {
+  background: #703EDB;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 2rem;
+}
+
+.c1S1boxHolder2 {
+  background: #A7CE4A;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 2rem;
+}
+
+.c1S1boxHolder3 {
+  background: #FE5EA6;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 2rem;
+}
+
+.c1S1boxHolder4 {
+  background: #FF7F56;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 2rem;
+}
+
+/* .container2 */
+.container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #121421;
+  color: #D9D9D9;
+  padding: 1rem 7rem;
+}
+
+.c2Field0 {
+  font-size: 40px;
+  font-weight: 700;
+  width: 50%;
+}
+
+.c2Field1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+.c2F1Teacherbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #D9D9D9;
+  padding: 1rem;
+  color: #121421;
+  border-radius: 0 10px 0 10px;
+}
+
+.teacherImg {
+  height: calc(10rem - 10px);
+  width: calc(10rem - 10px);
+  border-radius: 0 10px 0 10px;
+}
+
+.c2F1Teacherbox h2 {
+  font-size: 20px;
+}
+
+.c2F1Teacherbox strong {
+  font-size: 14px;
+}
+
+/* .container3 */
+.container3 {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.c3Box0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 4rem 0;
+}
+
+.c3Feedbacks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.studentImg {
+  height: calc(9rem - 10px);
+  width: calc(9rem - 10px);
+  border-radius: 50%;
+}
+
+.c3Feedbacks h2 {
+  font-size: 20px;
+}
+
+.c3Feedbacks strong {
+  font-size: 14px;
+}
+
+.c3Box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 3rem 0;
+}
+
+.c3Feedbacks1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.studentImg1 {
+  height: calc(9rem - 10px);
+  width: calc(9rem - 10px);
+  border-radius: 50%;
+}
+
+.c3Feedbacks1 h2 {
+  font-size: 20px;
+}
+
+.c3Feedbacks1 strong {
+  font-size: 14px;
+}
+
+.c3Box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c3Feedbacks2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.studentImg2 {
+  height: calc(9rem - 10px);
+  width: calc(9rem - 10px);
+  border-radius: 50%;
+}
+
+.c3Feedbacks2 h2 {
+  font-size: 20px;
+}
+
+.c3Feedbacks2 strong {
+  font-size: 14px;
+}
+
+.c3Box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.5rem 0;
+}
+
+.c3Feedbacks3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.studentImg3 {
+  height: calc(9rem - 10px);
+  width: calc(9rem - 10px);
+  border-radius: 50%;
+}
+
+.c3Feedbacks3 h2 {
+  font-size: 20px;
+}
+
+.c3Feedbacks3 strong {
+  font-size: 14px;
+}
+
+.c3Box4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem 0;
+}
+
+.c3Feedbacks4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.studentImg4 {
+  height: calc(9rem - 10px);
+  width: calc(9rem - 10px);
+  border-radius: 50%;
+}
+
+.c3Feedbacks4 h2 {
+  font-size: 20px;
+}
+
+.c3Feedbacks4 strong {
+  font-size: 14px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  /* gap: 4rem; */
+  justify-content: space-around;
+  padding: 1rem 7rem;
+}
+
+.c4Box0 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: rgba(245, 242, 253, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1.5rem 2.5rem;
+}
+
+.c4Box0 h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #1A0642;
+}
+
+.c4Box0 span {
+  height: 1px;
+  width: 5rem;
+  background: #1A0642;
+  margin: 10px 0;
+}
+
+.c4Box0 p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1A0642;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.forName {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #703EDB;
+}
+
+.formName {
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px red;
+  background: rgba(245, 242, 253, 0.25);
+  box-shadow: 0px 0px 10px -5px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 2.5rem;
+}
+.formName::placeholder {
+  padding: 1rem 2rem;
+  color: #1A0642;
+}
+.forEmail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #703EDB;
+}
+
+.formEmail {
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px red;
+  background: rgba(245, 242, 253, 0.25);
+  box-shadow: 0px 0px 10px -5px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 2.5rem;
+}
+.formEmail::placeholder {
+  padding: 1rem 2rem;
+  color: #1A0642;
+}
+.forPhone {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #703EDB;
+}
+
+.formPhone {
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px red;
+  background: rgba(245, 242, 253, 0.25);
+  box-shadow: 0px 0px 10px -5px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 2.5rem;
+}
+.formPhone::placeholder {
+  padding: 1rem 2rem;
+  color: #1A0642;
+}
+.forMsg {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #703EDB;
+}
+
+.formMessage {
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px red;
+  background: rgba(245, 242, 253, 0.25);
+  box-shadow: 0px 0px 10px -5px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 2.5rem;
+}
+.formMessage::placeholder {
+  padding: 1rem 2rem;
+  color: #1A0642;
+}
+.formSubmit{
+  height: 3rem;
+  background: #703EDB;
+  outline: none;
+  border: none;
+  color: #D9D9D9;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.c4Box1{
+  background: #703EDB;
+  color: #D9D9D9;
+  padding: 2rem 2rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border-radius: 15px;
+}
+.ourContact{
+  display: flex;
+  flex-direction: column;
+  padding: 2px 4px;
+}
+.contactHeader{
+  display: flex;
+  flex-direction: column;
+}
+.c4Box1 h1{
+  font-size: 30px;
+}
+.c4Box1 span{
+  height: 1px;
+  width: 5rem;
+  background: #121421;
+}
+.contactNumber{
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.contactEmail{
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.contactAddress{
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.addressMarker{
+  font-size: 20px;
+}
+.contactLinks{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+.contactSocial{
+  font-size: 30px;
+  color: #D9D9D9;
+}
+/* Mobile */
+@media (max-width: 700px) {
+  /*  */
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  /*  */
+}
